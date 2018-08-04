@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.29797979797979796" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufrpe.trivendas.gui.controller.ResultsLayoutController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="Label1" layoutX="9.0" layoutY="14.0" prefHeight="49.0" prefWidth="166.0" text="Products Found: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <TableView prefHeight="398.0" prefWidth="418.0">
+              <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="327.9999634027481" text="Nome" />
+                <TableColumn fx:id="priceColumn" prefWidth="90.40008544921875" text="Preco" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>

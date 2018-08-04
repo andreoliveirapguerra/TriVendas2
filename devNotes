@@ -1,0 +1,13 @@
+#notes
+-JavaFX
+-aprender basico CSS e XML
+##gui
+-scneneBuilder FXML
+###componentes
+-jbutton
+-jlabel
+
+###container
+-stage e o container principal
+-code.makery java fx8
+-ramjavafx create notepad with javafx layout
