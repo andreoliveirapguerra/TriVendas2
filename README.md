@@ -13,7 +13,10 @@ TriVendas é um sistema de busca e listagem de produtos em sites da internet atr
           <artifactId>jsoup</artifactId>
           <version>1.11.3</version>
      </dependency>
-<img width = "200" height = "125" src="https://github.com/JesuisOriginal/TriVendas/blob/master/src/br/ufrpe/trivendas/gui/resources/images/Jsoup.png" alt="Web App"/>           
+     ```
+     
+![Jsoup.png](src/main/resources/images/Jsoup.png)
+
 - Rest
 
 ## Funcionalidades
@@ -22,11 +25,12 @@ TriVendas é um sistema de busca e listagem de produtos em sites da internet atr
 - Organização dos resultados por preço (mais barato para o mais caro)
 
 ## Instalação e Execução
-* Baixar o arquivo Trivender.jar
+- Baixar o arquivo Trivender.jar
 - Salvar em algum local do seu PC
 - Crt + R, depois digitar CMD e em seguida apertar Enter
 - Inserir o seguinte comando no Windows
    * ```CMD
         Java Trivender.jar
+     ```
 ## Arquitetura
-* ![Diagram](https://raw.githubusercontent.com/JesuisOriginal/TriVendas/master/src/main/java/br.ufrpe.trivendas/gui/resources/images/diagram1_0_1.png?token=Afwk_7pkhm0EVMHiXnkZK3mUg9K6IuIBks5bYcg5wA%3D%3D)
+![Diagram](src/main/resources/images/diagram1_0_1.png)
