@@ -65,17 +65,17 @@ public class PersonOverviewController implements Initializable {
     {
         try {
 
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/ResultsLayout.fxml"));
-            frontScene = loader.load(); // ta dando LoadExecption nessa linha
+//            FXMLLoader loader = new FXMLLoader();
+//            loader.setLocation(getClass().getResource("/ResultsLayout.fxml"));
+//            frontScene = loader.load(); // ta dando LoadExecption nessa linha
+//
+//            //define tela login dentro do root
+//            rootLayoutResult.setCenter(frontScene);
 
-            //define tela login dentro do root
-            rootLayoutResult.setCenter(frontScene);
-
+            showResultsLayout();
             //test what button is selected
             search();
 
-            showResultsLayout();
 
         } catch (Exception e){
             e.printStackTrace();
@@ -121,7 +121,7 @@ public class PersonOverviewController implements Initializable {
         try {
             //carrega tela de pesquisa
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(GuiApp.class.getResource("/PersonOverview.fxml"));
+            loader.setLocation(PersonOverviewController.class.getResource("/PersonOverview.fxml"));
             SplitPane frontScene = loader.load();
 
 //            Scene cena = (Scene) frontScene;
